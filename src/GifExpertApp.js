@@ -7,13 +7,10 @@ const GifExpertApp = () => {
 
     const [categories, setCategories] = useState(['Futurama']);
 
-    // const handleAdd = () => {
-    //     setCategories([...categories, 'otra']);
-    // }
-
     return (
-        <div>
-            <h2>GifExpertApp</h2>
+        <div className="allContent">
+            <h2>Gif Expert App</h2>
+            <h4>Search some Gif and press Enter</h4>
             <AddCategory setCategories={setCategories} />
             <hr />
 
